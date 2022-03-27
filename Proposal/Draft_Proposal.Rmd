@@ -1,0 +1,27 @@
+---
+title: '**Project_Proposal**'
+subtitle: '**Draft_Proposal**'
+header-includes:
+- \usepackage[T1]{fontenc}
+- \usepackage{titling}
+- \pretitle{\begin{center}\LARGE\includegraphics[width=5cm]{logo.jpg}\\[\bigskipamount]}
+- \posttitle{\end{center}}
+output: 
+  pdf_document:
+documentclass: extarticle
+fontsize: 14pt
+geometry: margin=1in
+mainfont: Times New Roman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, dev="cairo_pdf")
+```
+
+\
+\begin{center}
+**********
+\end{center}
+\begin{center}
+This document is created using RMarkdown by A Adarsh
+\end{center}
