@@ -1,9 +1,7 @@
-by Mr.Abc Xyz and Mr.Qwe Mnb *by Mr.Abc Xyz and Mr.Qwe Mnb*
+by Quietest Quokka and Bounciest Bilby *by Quietest Quokka and Bounciest
+Bilby*
 
-**Abstract** A system for 'declaratively' creating graphics, based on
-"The Grammar of Graphics". You provide the data, tell 'ggplot2' how to
-map variables to aesthetics, what graphical primitives to use, and it
-takes care of the details.
+**Abstract** An abstract of less than 150 words.
 
 # Introduction
 
@@ -14,10 +12,10 @@ plot by moving the cursor over the plot.
 
 This paper will first review some R packages on interactive graphics and
 their tooltip implementations. A new package
-[ggplot2](https://CRAN.R-project.org/package=ggplot2) that provides
-customized tooltips for plot, is introduced. Some example plots will
-then be given to showcase how these tooltips help users to better read
-the graphics.
+[ToOoOlTiPs](https://CRAN.R-project.org/package=ToOoOlTiPs) that
+provides customized tooltips for plot, is introduced. Some example plots
+will then be given to showcase how these tooltips help users to better
+read the graphics.
 
 # Background
 
@@ -35,8 +33,8 @@ plots and feature summaries.
 
 # Customizing tooltip design with ToOoOlTiPs {#customizing-tooltip-design-with}
 
-ggplot2 is a packages for customizing tooltips in interactive graphics,
-it features these possibilities.
+ToOoOlTiPs is a packages for customizing tooltips in interactive
+graphics, it features these possibilities.
 
 # A gallery of tooltips examples
 
@@ -47,7 +45,7 @@ illustration by Alison Horst in Figure
 reference="fig:penguins-alison"}.
 
 ![Artwork by \_horst](penguins.png){#fig:penguins-alison
-width="1\\linewidth" height="0.2\\textheight"}
+width="1\\linewidth" height="0.3\\textheight"}
 
 Table [1](#tab:penguins-tab-static){reference-type="ref"
 reference="tab:penguins-tab-static"} prints at the first few rows of the
@@ -80,25 +78,25 @@ species)) + geom_point()
 penguin data. Three species of penguins are plotted with bill depth on
 the x-axis and bill length on the y-axis. Visit the online article to
 access the interactive version made with the plotly
-package.](article_files/figure-latex/penguins-ggplot-1.pdf){#fig:penguins-ggplot}
+package.](test_files/figure-latex/penguins-ggplot-1.pdf){#fig:penguins-ggplot}
 
 # Summary
 
 We have displayed various tooltips that are available in the package
-ggplot2.
+ToOoOlTiPs.
 
-*Mr.Abc Xyz\
-University of R\
-Department of R Journal\
-Open source, R Community\
-<https://www.r-project.org/>\
+*Quietest Quokka\
+University of Little Mates\
+Department of Letter Q\
+Somewhere, Australia\
+<https://www.britannica.com/animal/quokka>\
 *ORCiD: [0000-1721-1511-1101](https://orcid.org/0000-1721-1511-1101)*\
-[`abc.xyz@r-project.org`](mailto:abc.xyz@r-project.org)*
+[`qquo@ulm.edu`](mailto:qquo@ulm.edu)*
 
-*Mr.Qwe Mnb\
-University of R\
-Department of R Journal\
-Open source, R Community\
-<https://www.r-project.org/>\
+*Bounciest Bilby\
+University of Little Mates\
+Department of Letter B\
+Somewhere, Australia\
+<https://www.britannica.com/animal/bilby>\
 *ORCiD: [0000-0002-0912-0225](https://orcid.org/0000-0002-0912-0225)*\
-[`qwe.mnb@r-project.org`](mailto:qwe.mnb@r-project.org)*
+[`bbil@ulm.edu`](mailto:bbil@ulm.edu)*
