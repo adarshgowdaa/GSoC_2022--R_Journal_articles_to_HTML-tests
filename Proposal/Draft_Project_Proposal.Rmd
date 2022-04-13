@@ -28,7 +28,7 @@ Converting past R Journal articles to HTML
 
 **Project Synopsis:**
 
-The Project Converting past R Journal articles to HTML aims to convert **.tex** files to an **HTML** version, based on the LaTeX source files and metadata in the R Journal style.It involves conversion to markdown via Pandoc in the first instance, then custom functions to convert the markdown to R markdown using the **rjtools** template.
+The Project Converting past R Journal articles to HTML aims to convert **.tex** files to an **HTML** version, based on the LaTeX source files and metadata in the R Journal style.
 \
 
 **URL of Project Idea Page:**
@@ -49,9 +49,11 @@ I went through your project details and found it very insightful and in my skill
 \
 \
 
-# Personal Details  
+# Contact Information  
 
 **Name:** A Adarsh
+
+**Postal Address:** 2981, 6th Cross, F Block, Kanakadasanagar, Mysore, Karnataka, India 570022
 
 **Email ID:** [adarshgowda463\@gmail.com](mailto:adarshgowda463@gmail.com){.email}
 
@@ -61,7 +63,6 @@ I went through your project details and found it very insightful and in my skill
 
 **LinkedIn:** <https://www.linkedin.com/in/a-adarsh-76695b17a/>
 
-**Geographic Location:** Mysore, India
 
 ## Affiliation
 
@@ -145,32 +146,37 @@ print("Hello World to the R Community")
 ## Phase 1:
 **June 13, 2022 - June 26, 2022**
 
-* TODO
+* Creating a base function to convert **.tex** files.
+* Discussing base factors with the mentors for the function.
 \
 
 ## Phase 2:
 **June 27, 2022 - July 10, 2022**
 
-* TODO
+* Implementing **Pandoc** to Convert the file to **markdown**
+* Checking for special cases to be handled. 
 \
 
 ## Phase 3:
 **July 11, 2022 - July 24, 2022**
 
-* TODO
+* Implementing Code in the function to convert **markdown** to **R markdown** using **rjtools** template.
 * Completing about 50-60% of the modules before the deadline   of first evaluations. 
 \
 
 ## Phase 4:
 **July 25, 2022 - Aug 7, 2022**
 
-* TODO
+* Checking for special cases to be handled in the function.
+* Creating a base package.
 \
 
 ## Phase 5:
 **Aug 8, 2022 - Aug 22, 2022**
 
-* TODO
+* Writing a Vignette containing all the information.
+* Thorough testing of the created package.
+* Finalizing the complete code and documentations.
 \
 
 ## Wrapping Up:
