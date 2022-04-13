@@ -1,26 +1,26 @@
 ---
-title: "ToOoOlTiPs: An R Package for Customizable Tooltips in Interactive Graphics"
+title: "ggplot2: An R Package for to Create Elegant Data Visualisations Using the Grammar of Graphics"
 abstract: >
-  An abstract of less than 150 words.
+  A system for 'declaratively' creating graphics, based on "The Grammar of Graphics". You provide the data, tell 'ggplot2' how to map    variables to aesthetics, what graphical primitives to use, and it takes care of the details.
 draft: true
 author:  
   # see ?rjournal_article for more information
-  - name: Quietest Quokka
-    affiliation: University of Little Mates
+  - name: Mr.Abc Xyz
+    affiliation: University of R
     address:
-    - Department of Letter Q
-    - Somewhere, Australia
-    url: https://www.britannica.com/animal/quokka
+    - Department of R Journal
+    - Open source, R Community
+    url: https://www.r-project.org/
     orcid: 0000-1721-1511-1101
-    email:  qquo@ulm.edu
-  - name: Bounciest Bilby
-    url: https://www.britannica.com/animal/bilby
-    email: bbil@ulm.edu
+    email:  abc.xyz@r-project.org
+  - name: Mr.Qwe Mnb
+    url: https://www.r-project.org/
+    email: qwe.mnb@r-project.org
     orcid: 0000-0002-0912-0225
-    affiliation: University of Little Mates
+    affiliation: University of R
     address:
-    - Department of Letter B
-    - Somewhere, Australia
+    - Department of R Journal
+    - Open source, R Community
 type: package
 output: 
   rjtools::rjournal_web_article
@@ -39,7 +39,7 @@ library(palmerpenguins)
 
 Interactive data graphics provides plots that allow users to interact them. One of the most basic types of interaction is through tooltips, where users are provided additional information about elements in the plot by moving the cursor over the plot.
 
-This paper will first review some R packages on interactive graphics and their tooltip implementations. A new package \CRANpkg{ToOoOlTiPs} that provides customized tooltips for plot, is introduced. Some example plots will then be given to showcase how these tooltips help users to better read the graphics. 
+This paper will first review some R packages on interactive graphics and their tooltip implementations. A new package \CRANpkg{ggplot2} that provides customized tooltips for plot, is introduced. Some example plots will then be given to showcase how these tooltips help users to better read the graphics. 
 
 # Background
 
@@ -47,13 +47,13 @@ Some packages on interactive graphics include \CRANpkg{plotly} [@plotly] that in
 
 # Customizing tooltip design with \pkg{ToOoOlTiPs}
 
-\pkg{ToOoOlTiPs} is a packages for customizing tooltips in interactive graphics, it features these possibilities.
+\pkg{ggplot2} is a packages for customizing tooltips in interactive graphics, it features these possibilities.
 
 # A gallery of tooltips examples
 
 The \CRANpkg{palmerpenguins} data [@palmerpenguins]  features three penguin species which has a lovely illustration by Alison Horst in Figure \@ref(fig:penguins-alison). 
 
-```{r penguins-alison, out.width = "100%", out.height = "30%", fig.cap = "Artwork by \\@allison\\_horst", fig.alt="A picture of three different penguins with their species: Chinstrap, Gentoo, and Adelie. "}
+```{r penguins-alison, out.width = "100%", out.height = "20%", fig.cap = "Artwork by \\@allison\\_horst", fig.alt="A picture of three different penguins with their species: Chinstrap, Gentoo, and Adelie. "}
 knitr::include_graphics("penguins.png")
 ```
 
@@ -87,4 +87,4 @@ penguins %>%
 
 # Summary
 
-We have displayed various tooltips that are available in the package \pkg{ToOoOlTiPs}. 
+We have displayed various tooltips that are available in the package \pkg{ggplot2}. 
