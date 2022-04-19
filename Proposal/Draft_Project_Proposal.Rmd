@@ -10,7 +10,7 @@ output:
   pdf_document:
 documentclass: extarticle
 fontsize: 14pt
-geometry: margin=1in
+geometry: margin=0.9in
 mainfont: Times New Roman
 ---
 
@@ -26,9 +26,14 @@ knitr::opts_chunk$set(echo = TRUE, dev="cairo_pdf")
 Converting past R Journal articles to HTML 
 \
 
+**Project Short Title**
+
+R Journal article conversion
+\
+
 **Project Synopsis:**
 
-The Project Converting past R Journal articles to HTML aims to convert **.tex** files to an **HTML** version, based on the LaTeX source files and metadata in the R Journal style.
+The Project Converting past R Journal articles to HTML aims to convert **.tex** files to an **HTML** version, based on the LaTeX source files and metadata.
 \
 
 **URL of Project Idea Page:**
@@ -38,7 +43,7 @@ The Project Converting past R Journal articles to HTML aims to convert **.tex** 
 
 # About Me
 
-I am Adarsh, a sophomore student pursuing my Bachelor's Degree in Computer Science Engineering from Vidyavardhaka College of Engineering, Mysore, India.I had previously participated in the Google Code-In Contest 2019-20 and was acquainted about the R Project for Statistical Computing.
+I am A Adarsh, a sophomore student pursuing my Bachelor's Degree in Computer Science Engineering from Vidyavardhaka College of Engineering, Mysore, India. I had previously participated in the Google Code-In Contest 2019-20 and was acquainted about the R Project for Statistical Computing.
 
 I'm an Ardent Programmer and Web Developer. I have been following The R Project for the past few years and was astonished
 by its computing skills in all the fields and would love to continue contributing to the R Programming language. GSoC would be a sublime opportunity for me to go ahead with it.Now I have been enhancing my R Skills with various other languages and Tech stacks such a **C/C++, Python, HTML, CSS, JavaScript, Go, Git**, etc.
@@ -128,7 +133,7 @@ From the above proposed project, R Project for statistical computing can be used
 
 Having an organized schedule is the most important factor when it comes to handling a project as it increases productivity and allows us be consistent.
 
-I have divided the the project timeline into 5 Phases, Each phase contains **2 weeks** each and it's respective deadlines.
+I have divided the the project timeline into 5 Phases, Each phase contains **2 to 3 weeks** each and it's respective deadlines.
 
 I understand the valuable time that the mentor's volunteer for the project, hence the weekly discussions and the evaluations that would be required will be done as and when they are most suited and comfortable according to them.
 \
@@ -146,41 +151,47 @@ print("Hello World to the R Community")
 ## Phase 1:
 **June 13, 2022 - June 26, 2022**
 
-* Creating a base function to convert **.tex** files.
 * Discussing base factors with the mentors for the function.
+* Creating a base function.
+* Implementing **Pandoc** to Convert the file to **markdown**
+* Implementing Code in the function to convert **markdown** to **R markdown** using **rjtools** template.
 \
 
 ## Phase 2:
 **June 27, 2022 - July 10, 2022**
 
-* Implementing **Pandoc** to Convert the file to **markdown**
 * Checking for special cases to be handled. 
+* Creating a base package.
+* Starting with Documentation and Simple Test run of the Package.
 \
 
 ## Phase 3:
 **July 11, 2022 - July 24, 2022**
 
-* Implementing Code in the function to convert **markdown** to **R markdown** using **rjtools** template.
-* Completing about 50-60% of the modules before the deadline   of first evaluations. 
+* Checking for special cases  (e.g. adding all the required YAML fields to the top of the R markdown file, or handling more complex articles with figures or equations).
+* Completing about 50-60% of the modules before the deadline   of first evaluations.
+* Thorough testing of the created package.
 \
 
 ## Phase 4:
-**July 25, 2022 - Aug 7, 2022**
+**July 25, 2022 - Aug 13, 2022**
 
+* Writing a Vignette containing all the information.
+* Starting with Converting the past articles.
 * Checking for special cases to be handled in the function.
-* Creating a base package.
+* Carefully Checking for correctness of the output generated.
 \
 
 ## Phase 5:
-**Aug 8, 2022 - Aug 22, 2022**
+**Aug 14, 2022 - Sept 4, 2022**
 
-* Writing a Vignette containing all the information.
-* Thorough testing of the created package.
-* Finalizing the complete code and documentations.
+* Continue Converting the articles. (if not completed in Previously)
+* Handling Special Cases (e.g. adding alternative text for images).
+* Discussing with the mentors and creating pull request to add articles to the R Journal Website.
 \
 
 ## Wrapping Up:
-**Aug 23, 2022 - Sept 12, 2022**
+**Sept 5, 2022 - Sept 12, 2022**
 
 * Finalizing the Code checks and documentations.
 * Getting final reviews and checks from fellow peers.
