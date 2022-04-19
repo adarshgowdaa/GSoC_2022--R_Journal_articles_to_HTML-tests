@@ -19,8 +19,7 @@ convert <- function(input_file, title, bib_file = NULL){
   
   #Copying Other Contents
   file_2 = file(file_1, open = "rt")
-  input_lines <- readLines(file_1)
-  data = paste(input_lines, sep = "")
+  data = paste((input_lines <- readLines(file_2)), sep ="")
   sink(output_file, append = TRUE)
   cat(data)
   sink()
