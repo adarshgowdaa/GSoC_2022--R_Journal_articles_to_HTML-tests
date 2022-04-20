@@ -10,7 +10,7 @@ convert <- function(input_file, title, bib_file = NULL){
   output_file = paste("outputs/", path,".Rmd",sep="")
   
   #Edit YAML Header
-  data = paste("---","\n","title:",title,"\n","bibliography:",bib_file,"\n","output:","rjtools::rjournal_web_article", sep = " ")
+  data = paste("---","\n","title:",title,"\n","bibliography:",bib_file,"\n","output:","rjtools::rjournal_web_article","\n", sep = " ")
   sink(output_file, append = TRUE)
   cat(data)
   cat("---")
