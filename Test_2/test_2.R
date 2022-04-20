@@ -10,7 +10,7 @@ convert <- function(input_file, title, bib_file = NULL){
   output_file = paste("outputs/", path,".Rmd",sep="")
   
   #Edit YAML Header
-  data = paste("---","\n","title:",title,"\n","bibliography:",bib_file,"\n","output:","rjtools::rjournal_web_article","\n", sep = " ")
+  data = paste("---","\n","title:",title,"\n","bibliography:",bib_file,"\n","output:","rjtools::rjournal_web_article", sep = " ")
   sink(output_file, append = TRUE)
   cat(data)
   cat("---")
@@ -26,7 +26,15 @@ convert <- function(input_file, title, bib_file = NULL){
   close(file_2)
   
   #Copying Required Files
-  
+  main_dir <- getwd()
+  ext = c("*.jpg", "*.png", "*.bib")
+  required_files = unique(grep(paste(ext, collapse = "|"), list.files(main_dir), value=TRUE))
+  file.copy(required_files,to = "outputs/")
+  print(paste(required_files, "Files Copied!"))
   
   #Generating HTML file
+  rmarkdown::render(input = output_file, output_format = "html_document")
 }
+
+
+
